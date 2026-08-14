@@ -101,7 +101,7 @@ if (typeof value2 === "number") {
 // → string
 
 
-// let b: unknown = "Farhan"
+// let b: unknown = "Farhan". "Farhan" assign করা আছে → TypeScript তো দেখতেই পাচ্ছে এটা string → তাহলে toFixed() কেন আটকাচ্ছে? কারণ unknown explicitly বলে দেয়: "এই variable-এর value-এর type সম্পর্কে এখন safe ধরে নিও না."
 // → তুমি TS-কে বলেছো "type unknown"
 // → TS ধরে নেবে না যে এটা string
 // → আগে check করতে হবে
@@ -111,3 +111,9 @@ if (typeof value2 === "number") {
 
 
 
+
+
+// unknown → আগে type check করো
+// null | something → null check করো
+// undefined | something → undefined check করো
+// শুধু string, number, boolean ইত্যাদি → সাধারণত সরাসরি ব্যবহার করা যায়।
