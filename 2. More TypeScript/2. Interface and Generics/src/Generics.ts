@@ -1,7 +1,7 @@
 
 
 
-// Generics in TypeScript means: you can write code that works with different types without losing type safety.
+// Generics in TypeScript means: you can write code that works with different types without losing type safety. Generic = একই structure/code কে different types-এর সাথে reusable করা।
 
 
 // Generic Interface
