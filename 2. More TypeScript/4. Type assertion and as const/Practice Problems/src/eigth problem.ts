@@ -13,5 +13,5 @@ function showStatus(status: OrderStatus): void {
 }
 
 showStatus(OrderStatus.Shipped);
-// showStatus("SHIPPED"); will throw an error
+// showStatus("SHIPPED"); will throw an error. কারণ OrderStatus হলো enum type, আর "SHIPPED" হলো string literal type।
 
