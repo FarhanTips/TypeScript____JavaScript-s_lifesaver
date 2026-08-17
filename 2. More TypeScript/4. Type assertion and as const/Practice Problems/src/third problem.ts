@@ -18,7 +18,7 @@ const product2: Product = {
     price: 900
 }
 
-function display(obj: {}):void {
+function display(obj: Product):void {
     console.log(obj);
 }
 
