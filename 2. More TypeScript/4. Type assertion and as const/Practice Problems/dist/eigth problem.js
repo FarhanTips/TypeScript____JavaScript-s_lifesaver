@@ -11,5 +11,5 @@ function showStatus(status) {
     console.log(`Current status: ${status}`);
 }
 showStatus(OrderStatus.Shipped);
-// showStatus("SHIPPED"); will throw an error
+// showStatus("SHIPPED"); will throw an error. কারণ OrderStatus হলো enum type, আর "SHIPPED" হলো string literal type।
 //# sourceMappingURL=eigth%20problem.js.map
