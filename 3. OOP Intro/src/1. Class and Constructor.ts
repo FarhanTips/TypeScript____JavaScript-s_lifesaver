@@ -9,7 +9,7 @@
  */
 
 class Student {
-    name: string;
+    name: string;     // We don't use const/let because name, email, marks and age are class properties, not standalone variables.
     email: string;
     age: number;
     marks: number;
