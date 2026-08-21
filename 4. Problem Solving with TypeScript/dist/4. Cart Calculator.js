@@ -2,7 +2,7 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 function calculateCartTotal(products) {
     return products.reduce((acc, curr) => acc + curr.price, 0);
-    // return products.reduce((acc, {price}):number => acc+price,0)
+    // return products.reduce((acc, {price}):number => acc+price,0);     // Using Destructuring
 }
 console.log(calculateCartTotal([
     { name: "Keyboard", price: 1500 },
